@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Nibal Menu - Chill Lounge</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #1a1a2e;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            padding: 20px;
+        }
+        
+        .menu-container {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+        .menu-image {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #888;
+            font-size: 12px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: white;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <h1>🍽️ Nibal Menu<br><span style="font-size: 14px; color: #ff6b35;">CHILL LOUNGE</span></h1>
+        
+        <!-- Menu Page 1 -->
+        <img class="menu-image" src="nibal final menu-1.png" alt="Nibal Menu Page 1">
+        
+        <!-- Menu Page 2 -->
+        <img class="menu-image" src="nibal final menu-2.png" alt="Nibal Menu Page 2">
+        
+        <!-- Menu Page 3 -->
+        <img class="menu-image" src="nibal final menu-3.png" alt="Nibal Menu Page 3">
+        
+        <div class="footer">
+            Relax · Smoke · Enjoy<br>
+            Scan for latest menu
+        </div>
+    </div>
+</body>
+</html>
